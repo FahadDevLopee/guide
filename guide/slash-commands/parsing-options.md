@@ -42,7 +42,7 @@ module.exports = {
 
 Since `reason` isn't a required option, the example above uses the `??` [nullish coalescing operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator) to set a default value in case the user does not supply a value for `reason`.
 
-If the target user is still in the guild where the command is being run, you can also use `.getMember('target')` to get their `GuildMember` object.
+If the target user is still in the guild where the command is being run, you can also use `.getMember('target')` to get their `GuildMember` object.eoeoeo
 
 ::: tip
 If you want the Snowflake of a structure instead, grab the option via `get()` and access the Snowflake via the `value` property. Note that you should use `const { value: name } = ...` here to [destructure and rename](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) the value obtained from the <DocsLink path="typedef/CommandInteractionOption" /> structure to avoid identifier name conflicts.
